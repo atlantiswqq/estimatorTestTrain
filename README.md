@@ -13,8 +13,8 @@
      1  1   2   3   4
 
 ## a service usually use pd(protobuf) data
-   you can usr `covertToPB.py` covert your checkpoint static to
-   pb,then  use tf.estimator to load and predict.
+   you can use `covertToPB.py` covert your checkpoint static to
+   pb,then use tf.estimator to load and predict.
    if you don't want to use python as the language for your project
    ,try use golang:tfgo.the github link is:
    [https://github.com/galeone/tfgo](https://github.com/galeone/tfgo)
