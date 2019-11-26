@@ -12,7 +12,7 @@ class NormalTrain(object):
         self.data = load_iris().data
 
     def get_clf(self):
-        clf = LinearSVC
+        clf = LinearSVC()
         return clf
 
     def save_model(self):
